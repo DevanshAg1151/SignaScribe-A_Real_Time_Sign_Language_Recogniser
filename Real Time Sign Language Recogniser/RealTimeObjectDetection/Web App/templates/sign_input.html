@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %} 
+<img src="static/logo.jpg" class="logo">
+<div class="main-heading">
+SignaScribe
+</div>
+<hr>
+{% endblock %}
+
+{% block body %}
+<br>
+<h3><center>Kindly wait for a few seconds while Live Video Feed is Opening.</center></h3>
+<br>
+<center>
+<img src = "{{url_for('video_feed')}}" width="640" height="480" class="videofeed">
+</center>
+{% endblock %}

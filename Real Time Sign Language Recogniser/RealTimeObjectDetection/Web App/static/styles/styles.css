@@ -1,0 +1,147 @@
+body {
+    padding: 40px;
+    margin: auto;
+    text-align: justify;
+    font-family: Dai Banna SIL, Cambria;
+    background-color: whitesmoke;
+    color: #0f0f0f;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-left: 9%;
+  border-radius: 35%;
+  margin-top: -15px;
+  /* text-align: center; */
+  /* display: flex; */
+  float: left;
+  /* justify-content: center; */
+  /* align-items: center; */
+  align-self: center;
+}
+
+.main-heading {
+  font-family: Caveat, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 300%;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-left: 12  px;
+  /* text-align: 12px; */
+  color: #000000;
+  margin-left: 40%; 
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.welcome {
+  margin-top: 3%;
+  margin-bottom: 1%;
+  background-color: #20c997;
+  text-align: center;
+  padding: 5px;
+  color: #000000;
+  /* font-weight: bolder; */
+  border: 5px;
+  border-color: #313131;
+  font-family: Kaushan Script, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.intro {
+  font-size: 170%;
+  font-weight: 150;
+  color: rgb(17, 16, 16);
+}
+
+.vision {
+  font-size: 150%;
+}
+
+.keyfeatures {
+  font-size: 150%;
+}
+
+.hiw {
+  font-size: 150%;
+}
+
+.button{
+  align-items: center;
+  /* align-content: center; */
+  /* align-self: center; */
+  justify-content: center;
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: Caveat,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1.5rem 2.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #20c997;
+  box-shadow: #095f91 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 2rem;
+    padding: 1.8rem 2.8rem;
+  }
+}
+
+.button-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.videofeed {
+  border-radius: 10px;
+  border-color: #000000;
+  padding: 6px;
+  background-color: #313131;
+}
+
+hr {
+  border-width: 2px;
+  border-color: #000000;
+}
+
+.button-line {
+  animation: flicker 1s infinite;
+  color: #c51e1e;
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0; /* Fully transparent */
+  }
+}

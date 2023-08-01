@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>thanks.3a40ffcc-199f-11ee-8c0d-c85acf42f0ca.jpg</filename>
+	<path>D:\Assignments\Sem 5\NTCC\Real Time Sign Language Recogniser\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\thanks.3a40ffcc-199f-11ee-8c0d-c85acf42f0ca.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Thank You</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>211</ymin>
+			<xmax>487</xmax>
+			<ymax>378</ymax>
+		</bndbox>
+	</object>
+</annotation>

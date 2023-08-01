@@ -1,0 +1,67 @@
+{% extends 'layout.html' %}
+
+{% block title %} 
+<img src="static/logo.jpg" class="logo">
+<div class="main-heading">
+SignaScribe
+</div>
+<hr>
+{% endblock %}
+
+{% block body %}
+
+<div class="welcome">
+    <h2>Welcome to SignaScribe - A Real Time Sign Language Recognition Software</h2>
+</div>
+<hr>
+<p>
+    <div class="intro">
+    SignaScribe is an advanced web application designed to break communication barriers and foster 
+    inclusive interactions for individuals using sign language. Our software combines cutting-edge 
+    technologies, including convolutional neural networks (CNN) and OpenCV, to provide real-time 
+    recognition of sign language gestures.
+    </div>
+    <hr>
+    <div class="vision">
+    <b>Our Vision:</b>
+    <br>
+    At SignaScribe, we envision a world where effective communication is accessible to everyone,
+     regardless of their communication preferences or abilities. We are committed to harnessing
+      the power of technology to bridge the gap between sign language users and the wider community.
+      </div>
+      <hr>
+      <div class="keyfeatures">
+      <b>Key Features:</b>
+      <ul>
+        <li><b>Real-Time Recognition:</b> Say goodbye to delays! With SignaScribe's real-time recognition
+             capabilities, you can experience prompt and accurate interpretation of sign language
+              gestures on the fly.</li>
+              <br>
+        <li><b>User-Friendly Interface:</b> We understand the importance of simplicity. SignaScribe boasts
+             an intuitive and user-friendly interface that makes communication effortless for all users.</li>   
+        <br>
+             <li><b>Seamless Integration:</b> Whether you're using a desktop, tablet, or smartphone, SignaScribe's
+             responsive design ensures a seamless experience across all devices.</li>        
+      </ul>
+      </div>
+      <hr>
+      <div class="hiw">
+      <b>How it Works:</b>
+      <br>
+      Using SignaScribe is as easy as 1-2-3! Simply click the<b> "Start Recognition"</b> button, and our application
+       will open a video feed to input your sign language gestures. Our powerful recognition engine will
+        analyze the video frames in real-time, providing you with immediate and accurate results.
+        <br><br><br>
+      </div>  
+</p>
+<div class="button-line">
+    <h3><center><b>Get started with SignaScribe today and unlock the power of seamless sign language recognition!</b></center></h3>
+</div>
+<br><br>
+<div class="button-container">
+<form action="sign_classifier" method="post">
+    <button class = "button">Start Recognition</button>
+</form>
+</div>
+
+{% endblock %}
